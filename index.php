@@ -56,8 +56,8 @@
            <td>$row[dateofbirth]</td>
            <td>$row[suspended]</td>
             <td>
-            <a class='btn btn primary btn-sm'href='/myshop/edit.php?id-$row[id]'>Edit</a>
-            <a class='btn btn primary btn-sm'href='/myshop/delete.php?id$row[id]'>Delete</a>
+            <a class='btn btn primary btn-sm'href='/author/edit.php?id-$row[id]'>Edit</a>
+            <a class='btn btn primary btn-sm'href='/author/delete.php?id$row[id]'>Delete</a>
             </td>
         </tr>
             ";
